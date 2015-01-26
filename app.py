@@ -15,4 +15,9 @@ def getInputs():
     print "Try again"
     getInputs()
     
-  
+  password  = getVariable("Enter Password:")
+    
+  if(password.length <= 0):
+    print "Try again"
+    getInputs()
+    
