@@ -1,3 +1,5 @@
+from win32api import keybd_event
+
 
 def getVariable(prompt):
   inputX = raw_input(prompt) #  "Please enter something: ")
