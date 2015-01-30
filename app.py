@@ -1,7 +1,12 @@
 from win32api import keybd_event
 
 class Scraply: 
-  def getVariable(prompt):
+  
+  
+  def __init__(self, test):
+      print "test: " + test 
+      
+  def getVariable(self, prompt):
     inputX = raw_input(prompt) #  "Please enter something: ")
     print "You entered:" +  inputX
     
@@ -11,7 +16,7 @@ class Scraply:
   
     return inputX
   
-  def getInputs():
+  def getInputs(self ):
     username = getVariable("Enter Username:")
     password  = getVariable("Enter Password:")
     
