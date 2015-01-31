@@ -17,8 +17,9 @@ class Scraply:
     return inputX
   
   def getInputs(self ):
-    username = getVariable("Enter Username:")
-    password  = getVariable("Enter Password:")
+    """ Requets inputs from user:  ""
+    username = getVariable("Enter Username: ")
+    password  = getVariable("Enter Password: ")
     
     
 
